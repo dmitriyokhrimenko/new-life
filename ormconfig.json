@@ -1,0 +1,10 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "new_life_user",
+  "password": "p1rrmJim",
+  "database": "new_life_db",
+  "entities": ["dist/**/*.entity{.ts,.js}", "dist/**/**/*.entity{.ts,.js}"],
+  "synchronize": true
+}
